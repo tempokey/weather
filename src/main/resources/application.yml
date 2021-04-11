@@ -1,0 +1,5 @@
+spring:
+  profiles:
+    active: weather,dev
+server:
+  port: 8888
