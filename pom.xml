@@ -20,6 +20,7 @@
         <http.version>4.5.13</http.version>
         <swagger.version>2.9.2</swagger.version>
         <fastjson.version>1.2.73</fastjson.version>
+        <junit.version>4.12</junit.version>
     </properties>
 
     <dependencies>
@@ -51,6 +52,12 @@
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>${fastjson.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
         </dependency>
     </dependencies>
 
